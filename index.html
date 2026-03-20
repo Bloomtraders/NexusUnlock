@@ -572,9 +572,13 @@ footer { border-top: 1px solid var(--border); padding: 36px 48px; display: flex;
   </div>
   <div class="nav-right">
     <a class="nav-premium" href="https://t.me/KeyForgeAi" target="_blank">★ TELEGRAM PREMIUM — $20</a>
+    <div onclick="if(window.Tawk_API)Tawk_API.toggle()" class="nav-tg" style="cursor:pointer">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+      LIVE CHAT
+    </div>
     <a class="nav-tg" href="https://t.me/KeyForgeAi" target="_blank">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 5L2 12.5l7 1M21 5l-2.5 15L9 13.5M21 5L9 13.5m0 0v5.5l3.5-3"/></svg>
-      SUPPORT
+      TELEGRAM
     </a>
   </div>
 </nav>
@@ -1073,11 +1077,37 @@ footer { border-top: 1px solid var(--border); padding: 36px 48px; display: flex;
   </div>
 </footer>
 
-<a class="tg-float" href="https://t.me/KeyForgeAi" target="_blank">
-  <svg class="tg-float-icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><path d="M21 5L2 12.5l7 1M21 5l-2.5 15L9 13.5M21 5L9 13.5m0 0v5.5l3.5-3"/></svg>
-  <span class="tg-float-txt">LIVE AGENT</span>
-  <div class="tg-float-dot"></div>
-</a>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/69bdbdaf6bf0301c39b08c47/1jk6ipudq';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- Hide Tawk default button, use our custom -->
+<style>
+#tawkchat-status-icon-container, .tawk-button, .tawk-min-container { display: none !important; }
+</style>
+
+<div style="position:fixed;bottom:28px;right:28px;z-index:500;display:flex;flex-direction:column;gap:8px;align-items:flex-end">
+  <a href="https://t.me/KeyForgeAi" target="_blank" style="display:flex;align-items:center;gap:9px;background:#0088cc;border-radius:8px;padding:12px 20px;text-decoration:none;box-shadow:0 4px 16px rgba(0,136,204,0.4);transition:all 0.2s" onmouseover="this.style.background='#0099dd';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#0088cc';this.style.transform='none'">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round"><path d="M21 5L2 12.5l7 1M21 5l-2.5 15L9 13.5M21 5L9 13.5m0 0v5.5l3.5-3"/></svg>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#fff;letter-spacing:1px">TELEGRAM</span>
+    <span style="width:7px;height:7px;border-radius:50%;background:#4eff91;box-shadow:0 0 6px #4eff91;display:inline-block;animation:blink 2s infinite"></span>
+  </a>
+  <div onclick="if(window.Tawk_API)Tawk_API.toggle()" style="display:flex;align-items:center;gap:9px;background:#0f1a0f;border:1px solid rgba(184,255,87,0.3);border-radius:8px;padding:12px 20px;cursor:pointer;box-shadow:0 4px 16px rgba(184,255,87,0.1);transition:all 0.2s" onmouseover="this.style.background='#1a2a1a';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#0f1a0f';this.style.transform='none'">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b8ff57" stroke-width="1.8" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#b8ff57;letter-spacing:1px">LIVE CHAT</span>
+    <span style="width:7px;height:7px;border-radius:50%;background:#4eff91;box-shadow:0 0 6px #4eff91;display:inline-block;animation:blink 2s infinite"></span>
+  </div>
+</div>
 
 <div id="toast"></div>
 
